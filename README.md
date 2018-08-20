@@ -1,4 +1,4 @@
-# SiteImage Test Task
+# Premmerce Test Task
 Used technologies:
   - HTML5
   - SCSS/CSS
