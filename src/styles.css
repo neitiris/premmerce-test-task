@@ -1,0 +1,126 @@
+/***********************************************************
+                        CONSTANTS
+***********************************************************/
+/***********************************************************
+                    GENERAL STYLES
+***********************************************************/
+.body {
+  font: 14px "Times New Roman";
+  color: #8d8d8d;
+  padding: 0;
+  margin: 0; }
+
+.page-container {
+  max-width: 841px;
+  min-width: 230px;
+  height: 1000px;
+  margin: 0 auto; }
+
+/***********************************************************
+                        HEADER
+***********************************************************/
+.header {
+  display: flex;
+  justify-content: space-between; }
+
+.title {
+  font-family: "Tahoma", sans-serif;
+  color: #000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+  padding: 0 0 0 15px;
+  margin: 0;
+  display: inline-block; }
+
+.logo {
+  padding: 19px 0;
+  width: 87px;
+  height: 41px; }
+
+.nav-links {
+  padding: 34px 0; }
+
+.link {
+  font-size: 16px;
+  line-height: 19px; }
+
+/******************************************
+              CONTENT HEAD
+*******************************************/
+.content-head {
+  padding: 15px;
+  background: #f0f0f0;
+  display: inline-flex; }
+
+.content-head__image {
+  height: 100%;
+  width: 100%; }
+
+.content-head__text {
+  padding-left: 15px;
+  margin: 13px 0 10px 0; }
+
+.btn__details {
+  width: 115px;
+  height: 29px;
+  color: white;
+  margin-left: 15px;
+  background-color: #da4137;
+  border: none; }
+
+/*************************************
+	          CONTENT
+*************************************/
+.content {
+  padding: 30px 0; }
+
+.content_title {
+  line-height: 19px;
+  padding: 0; }
+
+.content_text {
+  margin-top: 5px; }
+
+.advantages-container {
+  display: flex;
+  margin-bottom: 20px; }
+
+.advantages-container__block {
+  width: 25%;
+  display: flex; }
+
+.advantages-container__image {
+  padding-top: 10px;
+  height: 44px; }
+
+.advantages-container__text {
+  padding: 0 15px;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/**************************************
+    ADJUST STYLE FOR MOBILE DEVICES
+***************************************/
+@media screen and (max-width: 715px) {
+  .body {
+    padding: 0 10px 100px; }
+  .content-head,
+  .advantages-container,
+  .advantages-container__block,
+  .btn_details {
+    display: block; }
+  .header, .advantages-container__block {
+    text-align: center; }
+  .advantages-container__block {
+    width: 100%; }
+  .content {
+    padding: 30px 10px; }
+  .content-head__image {
+    max-width: 100%;
+    max-height: 100%; }
+  .link {
+    text-align: left;
+    width: auto; } }

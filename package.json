@@ -1,0 +1,26 @@
+{
+  "name": "premmerce-test-task",
+  "version": "1.0.0",
+  "description": "Premmerce test task",
+  "main": "index.js",
+  "scripts": {
+    "dev-css": "gulp dev-css",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "test",
+    "task"
+  ],
+  "author": "Vlad Senchuk",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "engines": {
+    "node": "9.8.0",
+    "npm": "5.6.0"
+  }
+}
